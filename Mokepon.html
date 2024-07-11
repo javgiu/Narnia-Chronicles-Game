@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <link rel="stylesheet" href="./css/styles.css">
+
+        <section id="seleccionar-hero">
+
+            <h1 class="titulo">Narnia</h1>
+
+            <h2 class="subtitulo">Choose your Hero:</h2>
+
+            <div id="contenedor-tarjetas" class="tarjetas">
+            </div>
+            
+            
+            <button id="button-hero">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque" style="display: none;">
+
+            <h1 class="titulo">Narnia</h1>
+
+            <h2 class="subtitulo">Choose your Attack</h2>
+
+            <div id ="contenedor-botones" class="botones">
+               
+            </div>
+
+           
+            <div id= "resultados">
+
+                <p id="resultado">God Bless You</p>
+
+                <section id="reiniciar" style="display: none;">  
+
+                    <button id="button-reiniciar">Reiniciar</button>
+
+                </section>
+
+            </div>
+                       
+
+
+            <div class="mensajes">
+
+                <div class="ataque-jugador">
+
+                   <p id="hero-jugador">Tu hero</p>
+
+                   <p id="vidas-jugador">3</p>
+
+                    <div id="mensajes-del-jugador"></div>
+
+                </div>
+
+                <div class="ataque-enemigo">
+
+                    <p id="hero-enemigo">El hero del enemigo</p>
+
+                    <p id="vidas-enemigo">3</p>
+
+                    <div id="mensajes-del-enemigo"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <script src="./js/mokepon.js"></script>
+
+    </body>
+</html>
